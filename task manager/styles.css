@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1e1e1e; /* Slightly lighter dark background for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2; /* Bright blue for headings */
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #4a90e2; /* Blue border */
+    border-radius: 5px;
+    background: #2b2b2b; /* Dark input background */
+    color: #e0e0e0; /* Light text color */
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #357ab8; /* Focused border color */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2; /* Bright blue for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #357ab8; /* Darker blue on hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #333; /* Lighter border for better visibility */
+    background: #2b2b2b; /* Darker background for list items */
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: #3a3a3a; /* Slightly lighter on hover */
+}
+
+li div {
+    display: flex;
+}
+
+li button {
+    background: #d9534f; /* Red for delete button */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+    transition: background 0.3s;
+}
+
+li button:hover {
+    background: #c9302c; /* Darker red on hover */
+}
+
+.edit-btn {
+    background: #5bc0de; /* Light blue for edit button */
+}
+
+.edit-btn:hover {
+    background: #31b0d5; /* Darker blue on hover */
+}
